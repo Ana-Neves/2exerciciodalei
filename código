@@ -1,0 +1,10 @@
+num capacidadePercentual(num trabalho, num calor) {
+  return (trabalho / calor) * 100;
+}
+
+void main() {
+  num trabalho = 12;
+  num calor = 23;
+
+  print("A capacidade percentual é de ${capacidadePercentual(trabalho, calor)}%");
+}
